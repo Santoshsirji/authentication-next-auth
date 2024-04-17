@@ -5,13 +5,15 @@
 export const publicRoutes = [
     "/",
 
+
 ];
 
 //** An array of routes that are  accessible to authenticated users only. These routes require authentication in order to access them. @type { String[]} */
 
 export const authRoutes = [
     "/auth/login",
-    "/auth/register"
+    "/auth/register",
+    "/auth/error"
 ];
 
 //** The prefix for APi authentication routes.  Routes that start with this prefix are used for API authentication purposes @type { String } */*/
